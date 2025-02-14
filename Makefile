@@ -1,5 +1,4 @@
-all:
-	g++ -I ${BOOST_ROOT} main.cpp -o target/main
+all: matmul
 
 matmul:
 	g++ -I ${BOOST_ROOT} matmul.cpp -o target/matmul
